@@ -23,12 +23,6 @@ do
 
   echo "scp dirs to $host/$installPath starting"
 
-  for i in ${!workerNames[@]}; do
-    # shellcheck disable=SC2053
-    if [[ ${workerNames[$i]} == $host ]]; then
-      workerIndex=$i
-      break
-    fi
-  done
+  scp -r -q -P $sshPort -r $workDir/../*  $host:$installPath
 
 done
