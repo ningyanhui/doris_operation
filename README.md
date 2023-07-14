@@ -1,5 +1,5 @@
 # doris_operation
-doris集群一键部署、启动与停止
+apache doris集群一键部署、启动与停止
 ## 使用步骤
 ### 使用前提
 1. 完成java环境、时区同步、机器节点互通等系统环境配置
