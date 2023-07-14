@@ -7,6 +7,7 @@ apache doris集群一键部署、启动与停止
 3. 执行节点已安装mysql客户端
 4. 执行节点上已完成fe.conf,be.conf相关端口、数据存储、网络等相关配置
 ### 脚本使用步骤
-1. 配置install_env.sh相关环境变量
-2. 执行install.sh
-3. 启停集群使用start-all.sh 和stop-all.sh
+1. 复制项目文件到doris解压目录
+2. 配置install_env.sh相关环境变量
+3. 执行install.sh
+4. 启停集群使用start-all.sh 和stop-all.sh
